@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+python-dotenv = "==1.0.0"
+flask = "*"
+Flask_Cors = "*"
+requests = "*"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
