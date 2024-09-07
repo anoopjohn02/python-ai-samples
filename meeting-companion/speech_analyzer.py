@@ -31,7 +31,7 @@ prompt_to_LLAMA2 = LLMChain(llm=llm, prompt=pt)
 def transcript_audio(audio_file):
     # Initialize the speech recognition pipeline
     
-    pipe = #------> write the code here
+    pipe = None#------> write the code here
     
     # Transcribe the audio file and return the result
     transcript_txt = pipe(audio_file, batch_size=8)["text"]
@@ -42,5 +42,5 @@ def transcript_audio(audio_file):
 audio_input = gr.Audio(sources="upload", type="filepath")
 output_text = gr.Textbox()
 # Create the Gradio interface with the function, inputs, and outputs
-iface = #---> write code here
+iface = None#---> write code here
 iface.launch(server_name="0.0.0.0", server_port=7860)
